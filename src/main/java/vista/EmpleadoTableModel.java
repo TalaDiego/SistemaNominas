@@ -106,6 +106,7 @@ public class EmpleadoTableModel extends AbstractTableModel{
                 break;
             case 4:
                 clase=Float.class;
+                break;
         }
         return clase;
     }
