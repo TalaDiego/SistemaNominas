@@ -475,19 +475,11 @@ public class Ventana extends javax.swing.JFrame {
         return false;
     }
     
-    public void setControlador(Controlador controlador){
-        this.controlador=controlador;
-    }
-    
     public void limpiarCampos(){
         textDni.setText("");
         textNombre.setText("");
         textSalario.setText("");
         textIngresos.setText("");
-    }
-    
-    public void mostrar(){
-        setVisible(true);
     }
     
     /**
@@ -525,6 +517,13 @@ public class Ventana extends javax.swing.JFrame {
         });
     }
     
+    public void setControlador(Controlador controlador){
+        this.controlador=controlador;
+    }
+    
+    public void mostrar(){
+        setVisible(true);
+    }
     
     private Controlador controlador;
     private DialogoEmpleado dialogoEmpleado=new DialogoEmpleado(this, true);
