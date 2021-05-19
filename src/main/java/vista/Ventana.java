@@ -78,6 +78,13 @@ public class Ventana extends javax.swing.JFrame {
         labelSalario.setText("SALARIO");
 
         textDni.setEditable(false);
+        textDni.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                textDniActionPerformed(evt);
+            }
+        });
+
+        textNombre.setEditable(false);
 
         comboTipo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FIJO", "EVENTUAL" }));
         comboTipo.addActionListener(new java.awt.event.ActionListener() {
@@ -85,6 +92,8 @@ public class Ventana extends javax.swing.JFrame {
                 comboTipoActionPerformed(evt);
             }
         });
+
+        textSalario.setEditable(false);
 
         labelIngresos.setText("INGRESOS");
 
@@ -401,6 +410,10 @@ public class Ventana extends javax.swing.JFrame {
             labelHoras.setVisible(true);
         }
     }//GEN-LAST:event_comboTipoActionPerformed
+
+    private void textDniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textDniActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_textDniActionPerformed
     
     public String getTipo(){
         return (String)comboTipo.getSelectedItem();

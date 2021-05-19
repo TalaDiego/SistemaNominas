@@ -226,8 +226,14 @@
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textDniActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="textNombre">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="comboTipo">
           <Properties>
@@ -246,6 +252,9 @@
           </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="textSalario">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="labelIngresos">
           <Properties>
