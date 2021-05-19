@@ -14,7 +14,6 @@ import modelo.DniException;
 import modelo.Empleado;
 import modelo.EmpleadoEventual;
 import modelo.EmpleadoFijo;
-import org.xml.sax.SAXParseException;
 
 /**
  *

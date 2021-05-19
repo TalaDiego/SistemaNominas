@@ -10,7 +10,7 @@ import java.util.Objects;
 
 /**
  *
- * @author Sasha
+ * @author 
  */
 public abstract class Empleado implements Comparable<Empleado>, Serializable{
     private static final long serialVersionUID = -5200850935463934505L;

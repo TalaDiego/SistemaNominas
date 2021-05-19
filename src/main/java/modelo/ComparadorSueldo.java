@@ -8,8 +8,7 @@ package modelo;
 import java.util.Comparator;
 
 /**
- * Clase anónima
- * @author Sasha
+ * Clase 
  */
 public class ComparadorSueldo implements Comparator<Empleado>{
 

@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 
- * @author Sasha
+ * @author 
  */
 public class SistemaNominas {
     private List<Empleado> empleados;

@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author Sasha
+ * @author 
  */
 public class EmpleadoFijo extends Empleado{
     private static final long serialVersionUID = 8726079477013658090L;
