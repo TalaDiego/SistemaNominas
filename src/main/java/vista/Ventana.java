@@ -431,7 +431,7 @@ public class Ventana extends javax.swing.JFrame {
         return (int) spinnerHoras.getValue();
     }
     public String getArchivo(){
-        return selectorFicheros.getSelectedFile().toString();
+        return selectorFicheros.getSelectedFile().getAbsolutePath();
     }
     public String getOrden(){
         String orden=null;
