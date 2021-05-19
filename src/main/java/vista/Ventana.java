@@ -249,7 +249,7 @@ public class Ventana extends javax.swing.JFrame {
                 .addComponent(radioNombre)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(radioIngresos)
-                .addContainerGap(134, Short.MAX_VALUE))
+                .addContainerGap(70, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelListadoLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(scrollTabla, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
