@@ -72,10 +72,10 @@ public class EmpleadoTableModel extends AbstractTableModel{
                 break;
             case 3:
                 if(ev!=null){
-                    obj=ev.getHoras();
+                    obj=0;
                 }
                 else{
-                    obj=0;
+                    obj=ev.getHoras();
                 }
                 break;
             case 4:
