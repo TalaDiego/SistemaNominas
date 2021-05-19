@@ -22,8 +22,8 @@ public class EmpleadoTableModel extends AbstractTableModel{
     private List<Empleado> listado;
 
     public EmpleadoTableModel() {
-        listado=new ArrayList<>();
         columnas= new String[]{"DNI","NOMBRE","SALARIO","HORAS","INGRESOS"};
+        listado=new ArrayList<>();
     }
 
     public void setListado(List<Empleado> listado) {
