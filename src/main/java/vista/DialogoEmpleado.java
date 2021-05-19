@@ -5,8 +5,6 @@
  */
 package vista;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author daw1
@@ -15,6 +13,8 @@ public class DialogoEmpleado extends javax.swing.JDialog {
 
     /**
      * Creates new form DialogoEmpleado
+     * @param parent
+     * @param modal
      */
     public DialogoEmpleado(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
