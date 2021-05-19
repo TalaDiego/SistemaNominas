@@ -18,8 +18,8 @@ import modelo.EmpleadoFijo;
  * @author daw1
  */
 public class EmpleadoTableModel extends AbstractTableModel{
-    private List<Empleado> listado;
     private String[] columnas;
+    private List<Empleado> listado;
 
     public EmpleadoTableModel() {
         listado=new ArrayList<>();
