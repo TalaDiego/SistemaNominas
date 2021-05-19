@@ -79,6 +79,12 @@ public class DialogoEmpleado extends javax.swing.JDialog {
             }
         });
 
+        textSalario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                textSalarioActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -165,6 +171,10 @@ public class DialogoEmpleado extends javax.swing.JDialog {
         }
     }//GEN-LAST:event_comboTipoActionPerformed
 
+    private void textSalarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textSalarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_textSalarioActionPerformed
+
     
     public String getDni(){
         return textDni.getText();
@@ -195,7 +205,6 @@ public class DialogoEmpleado extends javax.swing.JDialog {
         setVisible(true);
         return opcion;
     }
-    
     
     /**
      * @param args the command line arguments
