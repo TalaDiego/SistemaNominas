@@ -1,0 +1,10 @@
+[
+  {
+    "type": "EmpleadoFijo",
+    "salario": 150.0,
+    "dni": {
+      "dni": "12345678Z"
+    },
+    "nombre": "alfa"
+  }
+]
