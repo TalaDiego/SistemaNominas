@@ -28,6 +28,7 @@ public class EmpleadoTableModel extends AbstractTableModel{
 
     public void setListado(List<Empleado> listado) {
         this.listado = listado;
+        this.fireTableDataChanged();
     }
     
     @Override
