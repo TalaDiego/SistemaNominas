@@ -78,13 +78,13 @@ public class Controlador {
             vista.mostrarNombre(e.getNombre());
             if(e instanceof EmpleadoFijo){
                 ef=(EmpleadoFijo)e;
-                vista.mostrarTipo("FIJO");
+                vista.mostrarTipo("Fijo");
                 vista.mostrarSalario(ef.getSalario());
                 vista.mostrarIngresos(ef.getSalario());
             }
             else{
                 ev=(EmpleadoEventual)e;
-                vista.mostrarTipo("EVENTUAL");
+                vista.mostrarTipo("Eventual");
                 vista.mostrarSalario(ev.getSalarioHora());
                 vista.mostrarIngresos(ev.getSalarioHora()*ev.getHoras());
                 vista.mostrarHoras(ev.getHoras());
