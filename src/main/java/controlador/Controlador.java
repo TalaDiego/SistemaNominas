@@ -151,7 +151,9 @@ public class Controlador {
                 lista=modelo.listarEmpleadosPorSueldo();
                 break;
         }
-        vista.listarEmpleados(lista);
+        if(lista!=null){
+            vista.listarEmpleados(lista);
+        }
     }
     
     public void guardarEmpleados(){
