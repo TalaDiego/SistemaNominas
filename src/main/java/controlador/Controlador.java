@@ -96,10 +96,10 @@ public class Controlador {
     public void eliminarEmpleado(){
         Empleado e=modelo.getEmpleado(vista.getDni());
         if(modelo.eliminarEmpleado(e)){
-            vista.mostrarMensaje("EMPLEADO ELIMINADO");
+            vista.mostrarMensaje("Empleado Eliminado");
         }
         else{
-            vista.mostrarMensaje("NO SE HA PODIDO ELIMINAR EL EMPLEADO");
+            vista.mostrarMensaje("No Se Pudo Eliminar El Empleado");
         }
         listarEmpleados();
     }
