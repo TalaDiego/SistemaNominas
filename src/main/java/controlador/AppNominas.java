@@ -5,7 +5,6 @@
  */
 package controlador;
 
-import controlador.Controlador;
 import modelo.SistemaNominas;
 import vista.Ventana;
 
