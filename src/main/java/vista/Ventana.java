@@ -476,7 +476,7 @@ public class Ventana extends javax.swing.JFrame {
     }
     
     public boolean solicitarConfirmacion(){
-        if(JOptionPane.showConfirmDialog(this, "¿Está seguro?")==JOptionPane.OK_OPTION){
+        if(JOptionPane.showConfirmDialog(this, "¿Estás seguro de Borrar? Será permanente")==JOptionPane.OK_OPTION){
             return true;
         }
         return false;
