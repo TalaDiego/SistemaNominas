@@ -7,9 +7,6 @@ package modelo;
 
 import java.util.Comparator;
 
-/**
- * Clase 
- */
 public class ComparadorSueldo implements Comparator<Empleado>{
 
     /**
